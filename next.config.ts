@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [{ protocol: 'https', hostname: 'img.clerk.com' }]
   }
+
 };
+
+module.exports = {
+  eslint: {
+    dirs: ["types"]
+  }
+}
+
 
 export default nextConfig;
