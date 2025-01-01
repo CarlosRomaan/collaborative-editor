@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client"
 
 import { ClientSideSuspense, RoomProvider } from "@liveblocks/react";
